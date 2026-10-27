@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Data, weights, training runs (too large for git)
+data/raw/
+data/processed/
+runs/
+weights/
+*.pt
+*.pth
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+
+# Generated results that are large; keep small metrics/figures tracked
+results/predictions/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Detached training logs
+*.log
+
+# Figures built from dataset photos (faces, number plates; the dataset licences do not allow
+# redistribution). They are regenerated locally by the scripts; only charts are tracked.
+results/figures/*.jpg

@@ -1,0 +1,71 @@
+{
+ "clear (BDD)": {
+  "contrast": {
+   "p25": 0.221,
+   "median": 0.236,
+   "p75": 0.252
+  },
+  "dark_channel": {
+   "p25": 0.159,
+   "median": 0.211,
+   "p75": 0.255
+  },
+  "blue_red": {
+   "p25": 1.096,
+   "median": 1.204,
+   "p75": 1.368
+  },
+  "sharpness": {
+   "p25": 2.817,
+   "median": 2.97,
+   "p75": 3.097
+  },
+  "n": 150
+ },
+ "synthetic dust": {
+  "contrast": {
+   "p25": 0.132,
+   "median": 0.164,
+   "p75": 0.193
+  },
+  "dark_channel": {
+   "p25": 0.266,
+   "median": 0.352,
+   "p75": 0.448
+  },
+  "blue_red": {
+   "p25": 0.613,
+   "median": 0.73,
+   "p75": 0.925
+  },
+  "sharpness": {
+   "p25": 2.098,
+   "median": 2.212,
+   "p75": 2.401
+  },
+  "n": 150
+ },
+ "real sandstorm (DAWN)": {
+  "contrast": {
+   "p25": 0.103,
+   "median": 0.141,
+   "p75": 0.182
+  },
+  "dark_channel": {
+   "p25": 0.286,
+   "median": 0.428,
+   "p75": 0.541
+  },
+  "blue_red": {
+   "p25": 0.544,
+   "median": 0.76,
+   "p75": 0.988
+  },
+  "sharpness": {
+   "p25": 1.204,
+   "median": 1.628,
+   "p75": 2.001
+  },
+  "n": 79
+ }
+}

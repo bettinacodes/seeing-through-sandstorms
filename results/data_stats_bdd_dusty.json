@@ -1,0 +1,38 @@
+{
+ "train": {
+  "images": 6000,
+  "dusty": 3027,
+  "light": 971,
+  "medium": 1027,
+  "heavy": 1029,
+  "beta_median": 1.3258946247603844,
+  "objects_hidden": 0.567
+ },
+ "val_light": {
+  "images": 1000,
+  "dusty": 1000,
+  "light": 1000,
+  "medium": 0,
+  "heavy": 0,
+  "beta_median": 0.4568386494918465,
+  "objects_hidden": 0.151
+ },
+ "val_medium": {
+  "images": 1000,
+  "dusty": 1000,
+  "light": 0,
+  "medium": 1000,
+  "heavy": 0,
+  "beta_median": 1.2968873353095163,
+  "objects_hidden": 0.667
+ },
+ "val_heavy": {
+  "images": 1000,
+  "dusty": 1000,
+  "light": 0,
+  "medium": 0,
+  "heavy": 1000,
+  "beta_median": 2.4936688218402967,
+  "objects_hidden": 0.848
+ }
+}

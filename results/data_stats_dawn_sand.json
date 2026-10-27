@@ -1,0 +1,40 @@
+{
+ "splits": {
+  "fewshot_train": {
+   "images": 79,
+   "empty_images": 0,
+   "boxes": 462,
+   "car": 347,
+   "bus": 9,
+   "truck": 46,
+   "person": 44,
+   "bicycle": 7,
+   "motorcycle": 9
+  },
+  "fewshot_val": {
+   "images": 22,
+   "empty_images": 0,
+   "boxes": 109,
+   "car": 74,
+   "bus": 7,
+   "truck": 16,
+   "person": 10,
+   "bicycle": 0,
+   "motorcycle": 2
+  },
+  "test": {
+   "images": 222,
+   "empty_images": 0,
+   "boxes": 1664,
+   "car": 1327,
+   "bus": 39,
+   "truck": 134,
+   "person": 120,
+   "bicycle": 2,
+   "motorcycle": 42
+  }
+ },
+ "dropped_labels": {},
+ "degenerate_boxes": 0,
+ "size_mismatch": []
+}

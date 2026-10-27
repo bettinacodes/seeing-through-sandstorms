@@ -1,0 +1,41 @@
+# Shared class set used across all datasets (index = YOLO class id)
+names:
+  0: car
+  1: bus
+  2: truck
+  3: person
+  4: bicycle
+  5: motorcycle
+
+# BDD100K category -> shared class (categories not listed are dropped:
+# train, traffic light, traffic sign, and the lane / drivable area polygons).
+# The 2018 labels (bdd100k_labels_images_*.json) call pedestrians "person";
+# the newer det_20 labels call them "pedestrian". Both are mapped.
+bdd100k:
+  car: car
+  bus: bus
+  truck: truck
+  person: person
+  pedestrian: person
+  rider: person
+  bike: bicycle
+  motor: motorcycle
+
+# COCO class id -> shared class (for the zero-shot baseline B0)
+coco:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  5: bus
+  7: truck
+
+# DAWN VOC label names -> shared class. Verified 2026-10-06: the Sand subset uses
+# exactly these six names; the other DAWN subsets add one "train" box (dropped).
+dawn:
+  car: car
+  bus: bus
+  truck: truck
+  person: person
+  bicycle: bicycle
+  motorcycle: motorcycle

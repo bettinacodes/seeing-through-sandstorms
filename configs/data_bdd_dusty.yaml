@@ -1,0 +1,19 @@
+# BDD clear subset with synthetic dust (built by src/make_dusty.py).
+# Paths are relative to the repo root: run src/train.py and src/evaluate.py from there.
+#   train:            fix A training set (50% of BDD clear train with dust)
+#   val:              the *clear* BDD val set - checkpoint selection identical to B1
+#   val_light/medium/heavy: paired dusty copies of BDD clear val, evaluation only
+path: data/processed/bdd_dusty
+train: images/train
+val: ../bdd_clear/images/val
+val_light: images/val_light
+val_medium: images/val_medium
+val_heavy: images/val_heavy
+
+names:
+  0: car
+  1: bus
+  2: truck
+  3: person
+  4: bicycle
+  5: motorcycle

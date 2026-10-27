@@ -1,0 +1,13 @@
+# BDD100K clear + daytime subset (built by src/prepare_bdd.py).
+# Paths are relative to the repo root: run src/train.py and src/evaluate.py from there.
+path: data/processed/bdd_clear
+train: images/train  # 6000
+val: images/val      # 1000 - the "clear" evaluation set
+
+names:
+  0: car
+  1: bus
+  2: truck
+  3: person
+  4: bicycle
+  5: motorcycle

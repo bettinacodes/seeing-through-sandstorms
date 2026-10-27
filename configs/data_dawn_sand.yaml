@@ -1,0 +1,16 @@
+# DAWN sandstorm subset (built by src/prepare_dawn.py, split frozen in configs/splits/dawn_sand.json).
+# Paths are relative to the repo root: run src/train.py and src/evaluate.py from there.
+#   train/val: few-shot data for fix C only
+#   test:      held-out sandstorm test set for every method - never train or tune on it
+path: data/processed/dawn_sand
+train: images/fewshot_train
+val: images/fewshot_val
+test: images/test
+
+names:
+  0: car
+  1: bus
+  2: truck
+  3: person
+  4: bicycle
+  5: motorcycle

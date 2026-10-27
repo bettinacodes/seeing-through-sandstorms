@@ -1,0 +1,320 @@
+{
+ "clear (BDD)": {
+  "background_local_contrast": {
+   "p25": 0.118,
+   "median": 0.158,
+   "p75": 0.2
+  },
+  "background_rms_contrast": {
+   "p25": 0.206,
+   "median": 0.232,
+   "p75": 0.263
+  },
+  "object_contrast": {
+   "p25": 0.131,
+   "median": 0.168,
+   "p75": 0.21
+  },
+  "object_sharpness": {
+   "p25": -0.733,
+   "median": -0.465,
+   "p75": -0.198
+  },
+  "n_images": 300,
+  "n_objects": 968
+ },
+ "synthetic light": {
+  "background_local_contrast": {
+   "p25": 0.051,
+   "median": 0.07,
+   "p75": 0.093
+  },
+  "background_rms_contrast": {
+   "p25": 0.117,
+   "median": 0.147,
+   "p75": 0.173
+  },
+  "object_contrast": {
+   "p25": 0.094,
+   "median": 0.12,
+   "p75": 0.153
+  },
+  "object_sharpness": {
+   "p25": -0.946,
+   "median": -0.649,
+   "p75": -0.344
+  },
+  "n_images": 300,
+  "n_objects": 955
+ },
+ "synthetic medium": {
+  "background_local_contrast": {
+   "p25": 0.017,
+   "median": 0.026,
+   "p75": 0.04
+  },
+  "background_rms_contrast": {
+   "p25": 0.056,
+   "median": 0.089,
+   "p75": 0.117
+  },
+  "object_contrast": {
+   "p25": 0.066,
+   "median": 0.089,
+   "p75": 0.115
+  },
+  "object_sharpness": {
+   "p25": -1.222,
+   "median": -0.915,
+   "p75": -0.627
+  },
+  "n_images": 300,
+  "n_objects": 709
+ },
+ "synthetic heavy": {
+  "background_local_contrast": {
+   "p25": 0.007,
+   "median": 0.011,
+   "p75": 0.02
+  },
+  "background_rms_contrast": {
+   "p25": 0.025,
+   "median": 0.047,
+   "p75": 0.08
+  },
+  "object_contrast": {
+   "p25": 0.063,
+   "median": 0.088,
+   "p75": 0.111
+  },
+  "object_sharpness": {
+   "p25": -1.122,
+   "median": -0.864,
+   "p75": -0.628
+  },
+  "n_images": 300,
+  "n_objects": 305
+ },
+ "DAWN light third": {
+  "background_local_contrast": {
+   "p25": 0.034,
+   "median": 0.038,
+   "p75": 0.044
+  },
+  "background_rms_contrast": {
+   "p25": 0.105,
+   "median": 0.123,
+   "p75": 0.161
+  },
+  "object_contrast": {
+   "p25": 0.07,
+   "median": 0.112,
+   "p75": 0.147
+  },
+  "object_sharpness": {
+   "p25": -1.05,
+   "median": -0.568,
+   "p75": -0.292
+  },
+  "n_images": 27,
+  "n_objects": 98
+ },
+ "DAWN medium third": {
+  "background_local_contrast": {
+   "p25": 0.019,
+   "median": 0.024,
+   "p75": 0.027
+  },
+  "background_rms_contrast": {
+   "p25": 0.074,
+   "median": 0.08,
+   "p75": 0.092
+  },
+  "object_contrast": {
+   "p25": 0.062,
+   "median": 0.086,
+   "p75": 0.107
+  },
+  "object_sharpness": {
+   "p25": -1.237,
+   "median": -0.954,
+   "p75": -0.641
+  },
+  "n_images": 26,
+  "n_objects": 132
+ },
+ "DAWN heavy third": {
+  "background_local_contrast": {
+   "p25": 0.006,
+   "median": 0.007,
+   "p75": 0.01
+  },
+  "background_rms_contrast": {
+   "p25": 0.03,
+   "median": 0.039,
+   "p75": 0.062
+  },
+  "object_contrast": {
+   "p25": 0.044,
+   "median": 0.08,
+   "p75": 0.148
+  },
+  "object_sharpness": {
+   "p25": -1.146,
+   "median": -0.805,
+   "p75": -0.537
+  },
+  "n_images": 26,
+  "n_objects": 58
+ },
+ "DAWN all": {
+  "background_local_contrast": {
+   "p25": 0.01,
+   "median": 0.024,
+   "p75": 0.037
+  },
+  "background_rms_contrast": {
+   "p25": 0.059,
+   "median": 0.082,
+   "p75": 0.118
+  },
+  "object_contrast": {
+   "p25": 0.064,
+   "median": 0.09,
+   "p75": 0.133
+  },
+  "object_sharpness": {
+   "p25": -1.164,
+   "median": -0.859,
+   "p75": -0.457
+  },
+  "n_images": 79,
+  "n_objects": 288
+ },
+ "hidden_fraction": {
+  "light": 0.158,
+  "medium": 0.715,
+  "heavy": 0.886
+ },
+ "dawn_thirds": {
+  "sand_storm-177": "light",
+  "sand_storm-381": "light",
+  "sand_storm-989": "light",
+  "sand_storm-068": "light",
+  "sand_storm-103": "light",
+  "sand_storm-991": "light",
+  "sand_storm-326": "light",
+  "sand_storm_g2_-077": "light",
+  "dusttornado-019": "light",
+  "sand_storm-170": "light",
+  "sand_storm-055": "light",
+  "sand_storm-357": "light",
+  "sand_storm-361": "light",
+  "sand_storm-278": "light",
+  "sand_storm_g2_-035": "light",
+  "sand_storm-082": "light",
+  "sand_storm_g2_-004": "light",
+  "sand_storm_g2_-068": "light",
+  "sand_storm-159": "light",
+  "sand_storm-349": "light",
+  "dusttornado-030": "light",
+  "dusttornado-018": "light",
+  "sand_storm-343": "light",
+  "sand_storm-331": "light",
+  "sand_storm_g2_-064": "light",
+  "sand_storm_g2_-079": "light",
+  "dusttornado-006": "light",
+  "sand_storm-184": "medium",
+  "sand_storm-006": "medium",
+  "sand_storm_g2_-001": "medium",
+  "sand_storm-363": "medium",
+  "dusttornado-014": "medium",
+  "sand_storm-042": "medium",
+  "sand_storm-119": "medium",
+  "sand_storm-152": "medium",
+  "sand_storm-002": "medium",
+  "sand_storm-031": "medium",
+  "sand_storm-165": "medium",
+  "sand_storm_g2_-028": "medium",
+  "sand_storm-133": "medium",
+  "sand_storm-935": "medium",
+  "sand_storm-151": "medium",
+  "dusttornado-013": "medium",
+  "sand_storm-004": "medium",
+  "dusttornado-027": "medium",
+  "sand_storm-928": "medium",
+  "sand_storm-304": "medium",
+  "sand_storm_g2-992": "medium",
+  "sand_storm-012": "medium",
+  "sand_storm-391": "medium",
+  "sand_storm-204": "medium",
+  "sand_storm-251": "medium",
+  "sand_storm-130": "medium",
+  "dusttornado-032": "heavy",
+  "sand_storm-001": "heavy",
+  "dusttornado-023": "heavy",
+  "sand_storm-057": "heavy",
+  "sand_storm-046": "heavy",
+  "sand_storm-999": "heavy",
+  "dusttornado-015": "heavy",
+  "sand_storm-226": "heavy",
+  "sand_storm_g2_-061": "heavy",
+  "sand_storm-096": "heavy",
+  "sand_storm-138": "heavy",
+  "sand_storm-178": "heavy",
+  "sand_storm-936": "heavy",
+  "sand_storm-253": "heavy",
+  "sand_storm_g2_-067": "heavy",
+  "sand_storm_g2_-065": "heavy",
+  "sand_storm-030": "heavy",
+  "sand_storm-390": "heavy",
+  "sand_storm-219": "heavy",
+  "sand_storm-032": "heavy",
+  "sand_storm-365": "heavy",
+  "sand_storm-039": "heavy",
+  "sand_storm-295": "heavy",
+  "sand_storm-284": "heavy",
+  "sand_storm-283": "heavy",
+  "sand_storm-358": "heavy"
+ },
+ "settings": {
+  "visible_t": 0.3,
+  "box_h_range_px_at_640w": [
+   32,
+   128
+  ],
+  "beta_range": {
+   "light": [
+    0.3,
+    0.6
+   ],
+   "medium": [
+    1.0,
+    1.6
+   ],
+   "heavy": [
+    2.0,
+    3.0
+   ]
+  },
+  "far_depth": {
+   "light": 2.5,
+   "medium": 2.0,
+   "heavy": 3.0
+  },
+  "blur_range": {
+   "light": [
+    0.3,
+    1.8
+   ],
+   "medium": [
+    0.8,
+    3.0
+   ],
+   "heavy": [
+    1.2,
+    4.0
+   ]
+  }
+ }
+}

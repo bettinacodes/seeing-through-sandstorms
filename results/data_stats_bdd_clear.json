@@ -1,0 +1,41 @@
+{
+ "splits": {
+  "train": {
+   "images": 6000,
+   "boxes": 82312,
+   "car": 67359,
+   "bus": 1330,
+   "truck": 3591,
+   "person": 8824,
+   "bicycle": 800,
+   "motorcycle": 408,
+   "medium": 30861,
+   "large": 13760,
+   "small": 37691
+  },
+  "val": {
+   "images": 1000,
+   "boxes": 13653,
+   "car": 11104,
+   "bus": 210,
+   "truck": 598,
+   "person": 1574,
+   "bicycle": 102,
+   "motorcycle": 65,
+   "small": 6291,
+   "medium": 5071,
+   "large": 2291
+  }
+ },
+ "pools": {
+  "train": {
+   "clear_daytime": 12454,
+   "with_objects_on_disk": 12404
+  },
+  "val": {
+   "clear_daytime": 1764,
+   "with_objects_on_disk": 1757
+  }
+ },
+ "degenerate_boxes": 3
+}
